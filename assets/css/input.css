@@ -3,17 +3,12 @@
 @theme{
 --color-primary: #fff;
 --color-secondery: #DEE1E6;
+--color-theme: #EA0000;
 --font-main:"Rubik";
 --font-headers:"Maven Pro";
 }
 
 @layer base{
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
     body {
         background-color: #000;
         font-family: var(--font-main);
@@ -24,11 +19,4 @@
         cursor: pointer;
     }
 
-    .container {
-
-    width: 100%;
-    @media (width >=30rem) {
-        max-width: 30rem;
-    }
-}
 }

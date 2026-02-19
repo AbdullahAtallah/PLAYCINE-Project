@@ -6,7 +6,6 @@
   "name": "playcine",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch"

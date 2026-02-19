@@ -17,40 +17,40 @@
 </head>
 
 <body>
-    <header class="py-4 fixed w-full z-10 ">
-        <div class="container mx-auto flex items-center justify-between">
+    <header class="py-4 fixed w-full z-10">
+        <div class="container mx-auto px-5 sm:px-0 flex items-center justify-between">
             <div class="mr-10 md:hidden">
                 <a href="./index.html"><img src="./assets/img/logo/Mini Logo.svg" /></a>
             </div>
             <div class="flex items-center">
-                <div class="mr-10 hidden md:block">
+                <div class="mr-10 hidden md:block hover:scale-110 transition">
                     <a href="./index.html"><img src="./assets/img/logo/logo.svg" /></a>
                 </div>
                 <ul class="items-center gap-5 text-[12px] hidden sm:flex">
-                    <li class="hover:scale-110 transition">
+                    <li class="hover:scale-110 hover:text-theme transition">
                         <a href="./index.html">Home</a>
                     </li>
-                    <li class="hover:scale-110 transition">
+                    <li class="hover:scale-110 hover:text-theme transition">
                         <a href="#">Movies</a>
                     </li>
-                    <li class="hover:scale-110 transition">
+                    <li class="hover:scale-110 hover:text-theme  transition">
                         <a href="#">Series</a>
                     </li>
-                    <li class="hover:scale-110 transition">
+                    <li class="hover:scale-110 hover:text-theme  transition">
                         <a href="#">TV Shows</a>
                     </li>
-                    <li class="hover:scale-110 transition">
+                    <li class="hover:scale-110 hover:text-theme  transition">
                         <a href="#">Browse By Language</a>
                     </li>
                 </ul>
             </div>
             <div class="flex items-center gap-6.25">
-                <button class="hover:scale-110 transition">
+                <button class="hover:scale-110 hover:text-theme transition">
                     <img src="./assets/img/icons/Search 1.svg" />
                 </button>
                 <img src="./assets/img/icons/Bell 1.svg" class="hover:scale-110 transition cursor-pointer" />
-                <a href="#" class="hover:scale-110 transition">
-                    <img src="./assets/img/people/Girl-Avatar.svg" />
+                <a href="#">
+                    <img src="./assets/img/people/Girl-Avatar.svg" class="border-theme hover:scale-110 hover:border-2 hover:border-theme hover:rounded-full transition" />
                 </a>
             </div>
             <div class="block sm:hidden"><i class="fa-solid fa-bars"></i>
@@ -60,10 +60,10 @@
 
     <main>
         <section>
-            <div class="relative h-screen bg-gray-900">
+            <div class="relative h-screen">
                 <div class="absolute inset-0 bg-[url('./../img/public/hero.webp')] bg-cover bg-center"></div>
                 <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
-                <div class="container mx-auto h-full">
+                <div class="container mx-auto h-full px-5 sm:px-0">
                     <div class="relative flex flex-col h-full justify-center">
                         <h1 class="text-4xl md:text-[60px] font-extrabold uppercase text-secondery font-headers">
                             Galactic Convergence
@@ -80,7 +80,7 @@
                         <p class=" text-secondery">to save humanity from the relentless onslaught...</p>
                         <div class="mt-8 flex gap-4">
                             <button
-                                class=" bg-[#EA0000] flex items-center gap-2 py-2 px-3 rounded-[22px] hover:scale-110 transition">
+                                class=" bg-theme flex items-center gap-2 py-2 px-3 rounded-[22px] hover:scale-110 transition">
                                 <img src="./assets/img/icons/Button play.svg" />Play
                             </button>
                             <buuton class="py-2 px-3 rounded-[22px] border hover:scale-110 transition">More Info
@@ -89,8 +89,219 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section>
+            <div class="container mx-auto px-5 sm:px-0">
+                <h2 class="text-primary font-semibold text-xl mb-4">Trending Now</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-7">
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Under Investigation.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Right Time.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Breaking The Veil.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/The New Roommate.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                </div>
+
+                <h2 class="text-primary font-semibold text-xl mb-4">Because You Watched "The Abyss"</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-7">
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Amaizing Ocean.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/En Route.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Faith.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/The Dark Places.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                </div>
+
+                <h2 class="text-primary font-semibold text-xl mb-4">Continue Watching</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-7">
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/The Abyss.webp"
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Chronicles.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Lost In The Jungle.webp"
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/The Stellar Journey.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                </div>
+
+                <h2 class="text-primary font-semibold text-xl mb-4">Popular Family Movies</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-7">
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/The Canine Caper.webp"
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/The Muse.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/That One Blue Summer.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Chidi Eze.webp"
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+                    </div>
+                </div>
+
+                <h2 class="text-primary font-semibold text-xl mb-4">Thriller</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-7">
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Scream On Screen.webp"
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Traumatic.webp"
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Behind The Tragedy.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Stay Strong.webp"
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                </div>
+
+                 <h2 class="text-primary font-semibold text-xl mb-4">Top 5 TV Shows Today</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-7">
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/From The Red Carpet.webp"
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Beauty In A Wild.webp"
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Best Friend Forever.webp "
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                    <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/The Gentleman's Code.webp"
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                     <div class="relative group hover:opacity-60 hover:scale-105 transition">
+                        <a href="#"><img src="./assets/img/Movies/Chastain Angels.webp"
+                                class=" rounded-lg w-full" />
+                            <i class="fa-solid fa-circle-play text-theme absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl
+                             opacity-0 group-hover:opacity-100"></i></a>
+
+                    </div>
+                </div>
+
+
+
+                
+            </div>
+            </div>
+
+
 
         </section>
+
+
     </main>
 </body>
 
