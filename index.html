@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLACINE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link href="./assets/css/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="py-4 fixed w-full z-10 ">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="mr-10 md:hidden">
+                <a href="./index.html"><img src="./assets/img/logo/Mini Logo.svg" /></a>
+            </div>
+            <div class="flex items-center">
+                <div class="mr-10 hidden md:block">
+                    <a href="./index.html"><img src="./assets/img/logo/logo.svg" /></a>
+                </div>
+                <ul class="items-center gap-5 text-[12px] hidden sm:flex">
+                    <li class="hover:scale-110 transition">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="hover:scale-110 transition">
+                        <a href="#">Movies</a>
+                    </li>
+                    <li class="hover:scale-110 transition">
+                        <a href="#">Series</a>
+                    </li>
+                    <li class="hover:scale-110 transition">
+                        <a href="#">TV Shows</a>
+                    </li>
+                    <li class="hover:scale-110 transition">
+                        <a href="#">Browse By Language</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-6.25">
+                <button class="hover:scale-110 transition">
+                    <img src="./assets/img/icons/Search 1.svg" />
+                </button>
+                <img src="./assets/img/icons/Bell 1.svg" class="hover:scale-110 transition cursor-pointer" />
+                <a href="#" class="hover:scale-110 transition">
+                    <img src="./assets/img/people/Girl-Avatar.svg" />
+                </a>
+            </div>
+            <div class="block sm:hidden"><i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="relative h-screen bg-gray-900">
+                <div class="absolute inset-0 bg-[url('./../img/public/hero.webp')] bg-cover bg-center"></div>
+                <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div class="container mx-auto h-full">
+                    <div class="relative flex flex-col h-full justify-center">
+                        <h1 class="text-4xl md:text-[60px] font-extrabold uppercase text-secondery font-headers">
+                            Galactic Convergence
+                        </h1>
+                        <p class="mt-4 text-lg md:text-[40px] uppercase font-semibold ">
+                            Invasion<span class="text-[12px] md:text-[32px] md:align-middle">of</span>Earth
+                        </p>
+                        <p class="mt-6 uppercase font-headers text-secondery">
+                            <span class="text-primary uppercase font-semibold">Playcine</span> Official: New Episode
+                            Tonight
+                        </p>
+                        <p class="mt-4 text-secondery">In the midst of a cataclysmic extraterrestrial invasion, a
+                            diverse group of unlikely heroes must unite</p>
+                        <p class=" text-secondery">to save humanity from the relentless onslaught...</p>
+                        <div class="mt-8 flex gap-4">
+                            <button
+                                class=" bg-[#EA0000] flex items-center gap-2 py-2 px-3 rounded-[22px] hover:scale-110 transition">
+                                <img src="./assets/img/icons/Button play.svg" />Play
+                            </button>
+                            <buuton class="py-2 px-3 rounded-[22px] border hover:scale-110 transition">More Info
+                            </buuton>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
