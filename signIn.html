@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLACINE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link href="./assets/css/output.css" rel="stylesheet">
+</head>
+
+<body>
+<header class="py-4 fixed w-full z-10">
+    <div class="container mx-auto px-5 sm:px-0 flex items-center justify-between">
+        <div class="mr-10 md:hidden">
+            <a href="./landing.html"><img src="./assets/img/logo/Mini Logo.svg" /></a>
+        </div>
+        <div class="flex items-center">
+            <div class="mr-10 hidden md:block hover:scale-110 transition">
+                <a href="./landing.html"><img src="./assets/img/logo/logo.svg" /></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section>
+        <div class="relative h-screen">
+            <div class="absolute inset-0 bg-[url('./../img/public/Sign-In-Bg.webp')] bg-cover bg-center opacity-15">
+            </div>
+            <div class="container mx-auto h-full px-5 sm:px-0">
+                <div class="relative flex flex-col h-full items-center justify-center text-center">
+                    <h1 class="font-headers font-bold text-2xl md:text-5xl">Unlock a world of endless entertainment</h1>
+                    <h3 class="font-semibold text-secondery text-xl md:text-2xl mb-7">Login to Discover, Stream, and Enjoy!
+                    </h3>
+                    <div class="bg-[#1D2128] p-10 rounded-md">
+                        <h3 class="font-bold font-headers text-[32px] mb-8">Sign in</h3>
+                        <form>
+                            <div class="  bg-white rounded-md p-2 w-105 mb-6">
+                                <label for="email" class="block text-[14px] font-bold text-[#424955] text-left mb-1">
+                                    Email
+                                </label>
+                                <input type="email" placeholder="example.email@gmail.com"
+                                    class="w-full  text-[14px] text-[#9095A0] " />
+                            </div>
+                            <div class="  bg-white rounded-md p-2 w-105 mb-6">
+                                <label for="password" class="block text-[14px] font-bold text-[#424955] text-left mb-1">
+                                    Password
+                                </label>
+                                <input type="password" placeholder="Enter at least 8+ characters"
+                                    class="w-full  text-[14px] text-[#9095A0] " />
+                            </div>
+                            <div class="flex items-center justify-between text-sm mb-2">
+                                <label class="flex items-center space-x-2 text-primary hover:text-secondery">
+                                    <input type="checkbox" class="accent-theme" />
+                                    <span>Remember me</span>
+                                </label>
+                                <a href="#" class="text-primary hover:text-secondery">
+                                    Forgot password?
+                                </a>
+                            </div>
+                            <button type="submit"
+                                class="w-full bg-theme hover:bg-red-700 text-primary py-2 rounded-md transition">
+                                Sign in
+                            </button>
+                            <div class="flex justify-center gap-0.5 mt-10">
+                                <p class="text-[#9095A0] text[14px]">New to PlayCine?</p>
+                                <button class="text-theme text[14px] underline hover:text-red-700">Sign up now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+
+</html>
