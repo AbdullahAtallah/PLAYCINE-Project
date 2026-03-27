@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLACINE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link href="./assets/css/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="py-4 fixed w-full z-10">
+        <div class="container mx-auto px-5 sm:px-0 flex items-center justify-between">
+            <div class="mr-10 md:hidden">
+                <a href="./landing.html"><img src="./assets/img/logo/Mini Logo.svg" /></a>
+            </div>
+            <div class="flex items-center">
+                <div class="mr-10 hidden md:block hover:scale-110 transition">
+                    <a href="./landing.html"><img src="./assets/img/logo/logo.svg" /></a>
+                </div>
+
+            </div>
+            <div class="flex items-center gap-6.25">
+                <button class="py-2 px-3 text-xs hover:scale-110 transition">
+                    <a href="./signIn.html">Sign In</a>
+                </button>
+                <button class="py-2 px-3 rounded-[22px] border hover:scale-110 transition bg-white text-black text-xs">
+                    <a href="./subscribtion.html">Join PlayCine</a>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="relative h-screen">
+                <div class="absolute inset-0 bg-[url('./../img/public/Sign-In-Bg.webp')] bg-cover bg-center opacity-15">
+                </div>
+                <div class="container mx-auto h-full px-5 sm:px-0">
+                    <div class="relative flex flex-col h-full items-center justify-center text-center gap-2">
+                        <div class="flex flex-col">
+                            <h1 class="font-headers font-semibold text-3xl md:text-5xl mt-12">PlayCine Membership</h1>
+                            <p class="font-light text-[#F1F4FD] mt-2">Choose the perfect subscription plan for your
+                                streaming needs</p>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="bg-[#1D2128]  flex flex-col justify-start gap-5 p-7 rounded-lg">
+                                <div class="flex gap-2">
+                                    <img src="./assets/img/icons/standard.svg" />
+                                    <p class="font-headers">Standard</p>
+                                </div>
+                                <div class="flex">
+                                    <p class="font-headers font-semibold text-3xl">$14.99<span
+                                            class="text-[12px] text-[#9095A0]"> /month</span></p>
+                                </div>
+                                <button
+                                    class="bg-transparent border rounded-3xl text-[14px] p-2 w-50 md:w-85 sm:w-70 hover:bg-[#45474a] transition">Select
+                                    this
+                                    plan</button>
+                                <div class="flex flex-col gap-3">
+                                    <div class="flex gap-3">
+                                        <img src="./assets/img/icons/Check.svg" />
+                                        <p class="text-[12px] text-[#9095A0]">Stream movies in high-definition (HD)
+                                            quality</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <img src="./assets/img/icons/Check.svg" />
+                                        <p class="text-[12px] text-[#9095A0]">Access to our vast library of movies and
+                                            TV shows</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <img src="./assets/img/icons/Check.svg" />
+                                        <p class="text-[12px] text-[#9095A0]">Watch movies on up to two devices
+                                            simultaneously</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <img src="./assets/img/icons/Check.svg" />
+                                        <p class="text-[12px] text-[#9095A0]">Cancel anytime</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <img src="./assets/img/icons/Check.svg" />
+                                        <p class="text-[12px] text-[#9095A0]">Ads - Free</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-[#1D2128]  flex flex-col justify-start gap-5 p-7 rounded-lg">
+                                <div class="flex gap-2">
+                                    <img src="./assets/img/icons/premium.svg" />
+                                    <p class="font-headers">Premium</p>
+                                </div>
+                                <div class="flex">
+                                    <p class="font-headers font-semibold text-3xl text-theme">$19.99<span
+                                            class="text-[12px] text-[#9095A0]"> /month</span></p>
+                                </div>
+                                <button
+                                    class="bg-theme  rounded-3xl text-[14px] p-2 w-50 md:w-85 sm:w-70 hover:bg-red-700 transition">Select
+                                    this
+                                    plan</button>
+                                <div class="flex flex-col gap-3">
+                                    <div class="flex gap-3">
+                                        <img src="./assets/img/icons/Check.svg" />
+                                        <p class="text-[12px] text-[#9095A0]">Stream movies in 4K Ultra HD quality</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <img src="./assets/img/icons/Check.svg" />
+                                        <p class="text-[12px] text-[#9095A0]">Exclusive access to premium content and
+                                            early release</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <img src="./assets/img/icons/Check.svg" />
+                                        <p class="text-[12px] text-[#9095A0]">Watch movies on up to two devices
+                                            simultaneously</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <img src="./assets/img/icons/Check.svg" />
+                                        <p class="text-[12px] text-[#9095A0]">Cancel anytime</p>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <img src="./assets/img/icons/Check.svg" />
+                                        <p class="text-[12px] text-[#9095A0]">Ads - Free</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="py-3">
+                            <p class="text-[12px] text-[#9095A0]">Get a 7-day free trial on any plan! Cancel anytime
+                                during the trial eriod with no charges.</p>
+                            <p class="text-[12px] text-[#9095A0]">Get ready for an incredible movie streaming journey
+                                with PlayCine.<span class="text-theme underline"><button>Sign up</button> </span> today
+                                and let the entertainment begin! </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
